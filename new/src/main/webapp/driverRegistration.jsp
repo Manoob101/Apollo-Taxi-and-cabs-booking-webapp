@@ -6,7 +6,7 @@
     <%@include file="includes/head.jsp"%>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <style>
         /* Custom Styles */
         body {
@@ -63,7 +63,7 @@
 <div class="container">
     <div class="card w-50 mx-auto my-5">
         <div class="card-header text-center">
-            Create an Account (Passenger)
+            Create an Account (Driver)
         </div>
 
         <% String message = (String) request.getAttribute("message"); %>
@@ -88,6 +88,16 @@
                 <div class="form-group mb-3">
                     <label for="email">Email Address</label>
                     <input class="form-control" id="email" name="email" type="email" required placeholder="Enter email address">
+                </div>
+
+                <!--Vehical Type-->
+                <div class="form-group mb-3">
+                    <label for="type">Vehicle type</label>
+                    <select name="type" class="form-select" aria-label="Default select example">
+                      <option value="car">Car</option>
+                      <option value="van">van</option>
+                      <option value="bike">Bike</option>
+                    </select>
                 </div>
 
                 <!-- Password -->

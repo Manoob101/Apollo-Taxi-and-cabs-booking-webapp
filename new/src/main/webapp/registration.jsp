@@ -20,7 +20,7 @@
     <div class="row justify-content-center">
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="card text-center" style="width: 100%;">
-                <a href="userLogin.jsp" class="text-decoration-none text-dark">
+                <a href="userRegistration.jsp" class="text-decoration-none text-dark">
                     <img src="product-images/image_1.jpg" class="card-img-top" alt="Passenger">
                     <div class="card-body">
                         <h2 class="fw-bold">Passenger</h2>
@@ -28,24 +28,12 @@
                 </a>
             </div>
         </div>
-
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card text-center" style="width: 100%;">
-                        <a href="driverLogin.jsp" class="text-decoration-none text-dark">
-                            <img src="product-images/image_1.jpg" class="card-img-top" alt="Passenger">
-                            <div class="card-body">
-                                <h2 class="fw-bold">Driver</h2>
-                            </div>
-                        </a>
-                    </div>
-        </div>
-
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="card text-center" style="width: 100%;">
-                <a href="adminLogin.jsp" class="text-decoration-none text-dark">
+                <a href="driverRegistration.jsp" class="text-decoration-none text-dark">
                     <img src="product-images/image_1.jpg" class="card-img-top" alt="Driver">
                     <div class="card-body">
-                        <h2 class="fw-bold">Admin</h2>
+                        <h2 class="fw-bold">Driver</h2>
                     </div>
                 </a>
             </div>
