@@ -3,6 +3,3 @@ aa,thisennambukara@gmail.com,aa
 Thisen Nambukara,thisennambukara@gmail.com,aaa
 aq,it24100843@my.sliit.lk,aq
 123,123@gmail.com,123
-147,147@gmail.com,147
-www,thisennambukara@gmail.com,kkk
-aa,thisennambukara@gmail.com,aa
