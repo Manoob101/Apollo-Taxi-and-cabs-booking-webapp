@@ -63,7 +63,7 @@
                      </li>
                      
                      <li class="nav-item">
-                     <a class="btn btn-primary fw-bold px-4 py-2" href="registration.jsp" style="border-radius: 30px; background-color: #007bff; border: none;">Sign Up</a>
+                     <a class="btn btn-primary fw-bold px-4 py-2" href="userRegistration.jsp" style="border-radius: 30px; background-color: #007bff; border: none;">Sign Up</a>
                  </li>
                 	
 

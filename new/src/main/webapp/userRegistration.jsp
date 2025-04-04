@@ -63,7 +63,7 @@
 <div class="container">
     <div class="card w-50 mx-auto my-5">
         <div class="card-header text-center">
-            Create an Account (Passenger)
+            Create an Account
         </div>
 
         <% String message = (String) request.getAttribute("message"); %>
