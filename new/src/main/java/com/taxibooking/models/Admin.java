@@ -1,26 +1,24 @@
 package com.taxibooking.models;
 
-public class Driver {
+public class Admin {
     String name;
     String email;
-    String type;
     String password;
 
-    public Driver(String name, String email, String type, String password) {
+    public Admin(String name, String email, String password) {
         this.name = name;
         this.email = email;
-        this.type = type;
         this.password = password;
     }
 
     public String toCSV() {
-        return name + "," + email + ","+ type + "," +password;
+        return name + "," + email + ","+ password;
     }
 
     public String getEmail() { return email; }
     public String getPassword() { return password; }
-    public String getType() { return type; }
+
     public Object getName() {
-        return name;
+        return null;
     }
 }
