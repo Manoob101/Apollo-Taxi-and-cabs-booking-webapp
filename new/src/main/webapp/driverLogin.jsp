@@ -63,14 +63,14 @@
             Login to Your Account (Driver)
         </div>
         <div class="card-body p-4">
-            <form action="user-login" method="post">
+            <form action="DriverLoginServlet" method="post">
                 <div class="form-group mb-3">
                     <label>Email Address</label>
-                    <input class="form-control" name="login-email" type="email" required placeholder="Enter your email">
+                    <input class="form-control" name="email" type="email" required placeholder="Enter your email">
                 </div>
                 <div class="form-group mb-4">
                     <label>Password</label>
-                    <input class="form-control" name="login-password" type="password" required placeholder="Enter your password">
+                    <input class="form-control" name="password" type="password" required placeholder="Enter your password">
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-login w-100">Login</button>
