@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Login | Taxi Booking System</title>
@@ -63,14 +64,21 @@
             Login to Your Account (Admin)
         </div>
         <div class="card-body p-4">
-            <form action="user-login" method="post">
+
+            <%-- Display error message if login fails --%>
+            <% String error = request.getParameter("error");
+                   if (error != null && !error.isEmpty()) { %>
+                   <p class="error-message">Invalid Credentials, please try again.</p>
+            <% } %>
+
+            <form action="AdminLoginServlet" method="post">
                 <div class="form-group mb-3">
                     <label>Email Address</label>
-                    <input class="form-control" name="login-email" type="email" required placeholder="Enter your email">
+                    <input class="form-control" name="email" type="email" required placeholder="Enter your email">
                 </div>
                 <div class="form-group mb-4">
                     <label>Password</label>
-                    <input class="form-control" name="login-password" type="password" required placeholder="Enter your password">
+                    <input class="form-control" name="password" type="password" required placeholder="Enter your password">
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-login w-100">Login</button>
