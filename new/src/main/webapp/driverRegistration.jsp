@@ -76,7 +76,7 @@
         <% } %>
 
         <div class="card-body p-4">
-            <form action="UserRegistrationServlet" method="post">
+            <form action="DriverRegistrationServlet" method="post">
 
                 <!-- Full Name -->
                 <div class="form-group mb-3">
