@@ -25,6 +25,18 @@
     <url-pattern>/DriverRegistrationServlet</url-pattern>
   </servlet-mapping>
 
+
+
+  <servlet>
+    <servlet-name>DriverLoginServlet</servlet-name>
+    <servlet-class>com.taxibooking.servlets.DriverLoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DriverLoginServlet</servlet-name>
+    <url-pattern>/DriverLoginServlet</url-pattern>
+  </servlet-mapping>
+
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>

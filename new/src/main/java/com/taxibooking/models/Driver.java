@@ -21,6 +21,6 @@ public class Driver {
     public String getPassword() { return password; }
     public String getType() { return type; }
     public Object getName() {
-        return null;
+        return name;
     }
 }
